@@ -1,6 +1,11 @@
 ## Overview
 
-This project is a Next.js application that leverages the app-router feature introduced in Next.js 13+. The application features a multi-page setup with functionality for displaying and adding elements, such as cards or a to-do list. The UI components are built using Chakra UI.
+This project is a Next.js application that leverages the app-router feature introduced in Next.js 13+. The application features a multi-page setup with functionality for displaying and adding elements, such as cards or a to-do list. The UI components are built using Chakra UI. Open
+
+
+## Url
+
+https://task-app-black-eight.vercel.app/
 
 ## Getting Started
 
@@ -11,6 +16,7 @@ npm run dev
 # or
 yarn dev
 ```
+
 ## Technologies Used
 
 - **Next.js 13+**: Utilizes the app-router for navigation.
