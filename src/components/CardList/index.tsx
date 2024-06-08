@@ -30,19 +30,17 @@ export default function CardList({ cards }: Props) {
       templateColumns="repeat(auto-fill, minmax(250px, 1fr))"
       gap={6}
     >
-      {cards.map(
-        ({ id, title, description, priority, status, type }, index) => (
-          <Card
-            key={id}
-            id={id}
-            title={title}
-            description={description}
-            priority={priority}
-            status={status}
-            type={type}
-          />
-        )
-      )}
+      {cards.map(({ id, title, description, priority, status, type }) => (
+        <Card
+          key={id}
+          id={id}
+          title={title}
+          description={description}
+          priority={priority}
+          status={status}
+          type={type}
+        />
+      ))}
     </Grid>
   );
 }

@@ -8,7 +8,6 @@ import {
   Radio,
   Heading,
   Stack,
-  useColorModeValue,
   Button,
   useToast,
   Box,
@@ -23,7 +22,6 @@ import { cardSchema } from "@/types/schemas/add-card.shema";
 import { useRouter } from "next/navigation";
 import { ROUTES } from "@/constants/routes";
 import { useCardStore } from "@/store/useCardStore";
-import Card from "../../Card";
 
 export default function AddCardForm() {
   const toast = useToast();
