@@ -1,4 +1,4 @@
 export enum ROUTES {
-  AddCardPage = "/add-card",
-  HomePage = "/",
+  AddCardPage = '/add-card',
+  HomePage = '/',
 }

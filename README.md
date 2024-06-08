@@ -11,6 +11,7 @@ npm run dev
 # or
 yarn dev
 ```
+
 ## Technologies Used
 
 - **Next.js 13+**: Utilizes the app-router for navigation.

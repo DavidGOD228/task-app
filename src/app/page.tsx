@@ -1,8 +1,8 @@
-"use client";
-import CardList from "@/components/CardList";
-import { useCardStore } from "@/store/useCardStore";
-import { useAuthStore } from "@/store/useAuthStore";
-import LoginPrompt from "@/components/LoginPrompt";
+'use client';
+import CardList from '@/components/CardList';
+import { useCardStore } from '@/store/useCardStore';
+import { useAuthStore } from '@/store/useAuthStore';
+import LoginPrompt from '@/components/LoginPrompt';
 
 export default function HomePage() {
   const cards = useCardStore((state) => state.cards);

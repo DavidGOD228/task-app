@@ -1,5 +1,5 @@
-"use client";
-import AddCardForm from "@/components/Forms/AddCardForm";
+'use client';
+import AddCardForm from '@/components/Forms/AddCardForm';
 
 export default function AddCardPage() {
   return (

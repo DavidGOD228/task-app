@@ -1,6 +1,6 @@
-import { StateCreator, create } from "zustand";
-import { ICard } from "@/types/common/card.types";
-import { persist } from "zustand/middleware";
+import { StateCreator, create } from 'zustand';
+import { ICard } from '@/types/common/card.types';
+import { persist } from 'zustand/middleware';
 
 interface CardStoreState {
   cards: ICard[];
@@ -23,7 +23,7 @@ export const useCardStore = create<CardStoreState>(
         })),
     }),
     {
-      name: "card-storage",
+      name: 'card-storage',
     }
   ) as StateCreator<CardStoreState, [], []>
 );
